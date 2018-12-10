@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 220px;
+    background-color: whitesmoke;
+}
+
+.logo {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    border: 1px;
+    padding: 1px;
+}
+
+.left-list {
+    width: 30%;
+}
+
+.list-item {
+    width: 100px;
+    height: 10px;
+    float: left;
+    list-style-type: none;
+}
+
+.right-list {
+    width: 30%px;
+}
+
+.hero {
+    display: block;
+    margin: 0 auto;
+    border: 1px;
+    padding: 100px;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
