@@ -1,23 +1,38 @@
 body {
     margin: 0 auto;
     background-color: whitesmoke;
+    align-items: center;
+    justify-content: center;
 }
  .nav-bar {
     width: 100%;
-    height: 150px;
+    height: 120px;
+    position: fixed;
     background-color: black;
 }
+
+/*.navbar-fixed-top.scrolled {*/
+/*  background-color: #fff !important;*/
+/*  transition: background-color 200ms linear;*/
+/*}*/
+
+/*.navbar-fixed-top.scrolled .nav-link {*/
+/*  color:#555;*/
+/*}*/
+
  .logo {
-    width: 210px;
+    width: 255px;
     display: inline-block;
     margin: 0 auto;
     border: 10px;
     padding: 10px;
+    border-radius: 50%;
 }
  .left-list {
     width: 23%;
     float: left;
-    padding: 50px;
+    padding: 40px;
+    margin-top: 10px;
     margin-left: 150px;
 }
  .list-item {
@@ -31,44 +46,51 @@ body {
  .list-item a {
      color: white;
      padding: 3px;
+     font-size: 20px;
+     font-family: 'Playfair Display', serif;
      text-decoration: none;
  }
  .right-list {
     width: 23%;
-    padding: 50px;
+    padding: 40px;
+    margin-top: 10px;
     margin-right: 150px;
     float: right;
 }
- .hero {
-    display: block;
-    margin: 0 auto;
-    border: 1px;
-    padding: 75px 100px;
+.hero {
+    padding: 200px 0px 50px 0px;
 }
- .hero-image {
-    width: 100%;
-    margin-bottom: 1px;
+.hero-image {
+    display: block;
+    width: 77%;
+    border-radius: 5%;
+    margin: 0 auto;
+    padding: 0px;
 }
 .mission {
     width: 100%;
-    height: 250px;
+    height: 300px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: whitesmoke;
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bolder;
+    font-family: 'Noto Serif TC', serif;
 }
 
 .mission h1 {
     font-size: 40px;
+    font-weight: lighter;
 }
 
 .statement {
     margin: 0px 300px;
-    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Tajawal', sans-serif;
 }
 
 footer {
-    height: 100px;
+    height: 130px;
     width: 100%;
     clear: both;
     background-color: whitesmoke;
@@ -76,29 +98,56 @@ footer {
 
 .social, .copyright, .by-design {
     width: 100%;
-    margin-top: 20px;
-    margin-bottom: 1px;
     text-align: center;
     float: left;
 }
 
+.social {
+    border-top: 5px solid black;
+    margin-bottom: 55px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Oxygen Mono', monospace;
+    background-color: whitesmoke;
+}
+
 .social a {
+    margin: 5px 0px; 
     text-decoration: none;
 }
 
-.by-design {
-    margin-bottom: 30px;
+.follow {
+    margin: 20px 0px;
+    padding: 20px 0px;
 }
+
+.copyright {
+    color: white;
+    height: 150px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lora', serif;
+    background-color: black;
+}
+
+.by-design {
+    padding: 25px 0px;
+}
+
+/*.by-design {*/
+/*    margin: 20px 0px;*/
+/*}*/
 
 .fab {
     font-size: 33px;
 }
-
+    
 .fa-facebook {
     color: black;
+    margin-right: 10px;
 }
 
 .fa-instagram {
     color: black;
-    margin-left: 20px;
+    margin-left: 10px;
 }
