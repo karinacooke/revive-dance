@@ -1,32 +1,14 @@
 body {
     margin: 0 auto;
-    background-color: whitesmoke;
     align-items: center;
     justify-content: center;
+    background-color: whitesmoke;
 }
  .nav-bar {
     width: 100%;
     height: 120px;
     position: fixed;
     background-color: black;
-}
-
-/*.navbar-fixed-top.scrolled {*/
-/*  background-color: #fff !important;*/
-/*  transition: background-color 200ms linear;*/
-/*}*/
-
-/*.navbar-fixed-top.scrolled .nav-link {*/
-/*  color:#555;*/
-/*}*/
-
- .logo {
-    width: 255px;
-    display: inline-block;
-    margin: 0 auto;
-    border: 10px;
-    padding: 10px;
-    border-radius: 50%;
 }
  .left-list {
     width: 23%;
@@ -47,29 +29,37 @@ body {
      color: white;
      padding: 3px;
      font-size: 20px;
-     font-family: 'Playfair Display', serif;
      text-decoration: none;
+     font-family: 'Playfair Display', serif;
  }
+ .logo {
+    width: 255px;
+    display: inline-block;
+    margin: 0 auto;
+    border: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
  .right-list {
     width: 23%;
+    float: right;
     padding: 40px;
     margin-top: 10px;
     margin-right: 150px;
-    float: right;
 }
 .hero {
-    padding: 200px 0px 50px 0px;
+    padding: 230px 0px 50px 0px;
 }
 .hero-image {
-    display: block;
     width: 77%;
-    border-radius: 5%;
+    display: block;
     margin: 0 auto;
     padding: 0px;
+    border-radius: 5%;
 }
 .mission {
     width: 100%;
-    height: 300px;
+    height: 330px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -89,22 +79,22 @@ body {
     font-family: 'Tajawal', sans-serif;
 }
 
-footer {
-    height: 130px;
+.footer {
     width: 100%;
+    height: 130px;
     clear: both;
     background-color: whitesmoke;
 }
 
 .social, .copyright, .by-design {
     width: 100%;
-    text-align: center;
     float: left;
+    text-align: center;
 }
 
 .social {
+    margin-bottom: 45px;
     border-top: 5px solid black;
-    margin-bottom: 55px;
     font-size: 20px;
     font-weight: normal;
     font-family: 'Oxygen Mono', monospace;
@@ -112,31 +102,15 @@ footer {
 }
 
 .social a {
-    margin: 5px 0px; 
+    margin: 10px 0px; 
     text-decoration: none;
 }
 
 .follow {
-    margin: 20px 0px;
-    padding: 20px 0px;
+    margin: 3px 0px;
+    padding: 33px 0px;
+    text-align: center;
 }
-
-.copyright {
-    color: white;
-    height: 150px;
-    font-size: 16px;
-    font-weight: normal;
-    font-family: 'Lora', serif;
-    background-color: black;
-}
-
-.by-design {
-    padding: 25px 0px;
-}
-
-/*.by-design {*/
-/*    margin: 20px 0px;*/
-/*}*/
 
 .fab {
     font-size: 33px;
@@ -150,4 +124,17 @@ footer {
 .fa-instagram {
     color: black;
     margin-left: 10px;
+}
+
+.copyright {
+    color: white;
+    height: 160px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lora', serif;
+    background-color: black;
+}
+
+.by-design {
+    padding: 25px 0px;
 }

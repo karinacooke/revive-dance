@@ -1,0 +1,177 @@
+body {
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+ .nav-bar {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    background-color: black;
+}
+ .left-list {
+    width: 23%;
+    float: left;
+    padding: 40px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+ .list-item {
+    width: 150px;
+    height: 10px;
+    float: left;
+    padding: 3px;
+    text-align: center;
+    list-style-type: none;
+}
+ .list-item a {
+     color: white;
+     padding: 3px;
+     font-size: 20px;
+     text-decoration: none;
+     font-family: 'Playfair Display', serif;
+ }
+ .logo {
+    width: 255px;
+    display: inline-block;
+    margin: 0 auto;
+    border: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+ .right-list {
+    width: 23%;
+    float: right;
+    padding: 40px;
+    margin-top: 10px;
+    margin-right: 150px;
+}
+.hero {
+    padding: 180px 0px 100px 0px;
+}
+
+.mission {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.mission h1 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.statement {
+    margin: 0px 300px;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.founders {
+    width: 77%;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+    border-radius: 5%;
+}
+
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    font-family: 'Noto Serif TC', serif;
+}
+
+.col {
+    height:700px;
+    width: 33%;
+    margin: 50px 0px;
+    float: left;
+    text-align: justify;
+}
+
+.text {
+    font-size: 30px;
+    text-align: center;
+}
+
+.p {
+    margin: 40px 25px;
+    padding 0px 25px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+.footer {
+    width: 100%;
+    height: 130px;
+    clear: both;
+    background-color: whitesmoke;
+}
+
+.social, .copyright, .by-design {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.social {
+    margin-bottom: 45px;
+    border-top: 5px solid black;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Oxygen Mono', monospace;
+    background-color: whitesmoke;
+}
+
+.social a {
+    margin: 10px 0px; 
+    text-decoration: none;
+}
+
+.follow {
+    margin: 3px 0px;
+    padding: 33px 0px;
+    text-align: center;
+}
+
+.fab {
+    font-size: 33px;
+}
+    
+.fa-facebook {
+    color: black;
+    margin-right: 10px;
+}
+
+.fa-instagram {
+    color: black;
+    margin-left: 10px;
+}
+
+.copyright {
+    color: white;
+    height: 160px;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Lora', serif;
+    background-color: black;
+}
+
+.by-design {
+    padding: 25px 0px;
+}
