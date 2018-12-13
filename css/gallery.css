@@ -48,11 +48,13 @@ body {
     margin-right: 150px;
 }
 .hero {
+    height: 3000px;
     padding: 180px 0px 100px 0px;
 }
 
-.mission {
+.meet {
     width: 100%;
+    height: 3000px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -60,31 +62,39 @@ body {
     font-family: 'Noto Serif TC', serif;
 }
 
-.mission h1 {
+.meet h1 {
+    margin-bottom: 50px;
     font-size: 40px;
     font-weight: lighter;
 }
 
+.videos{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.video {
+    width: 60%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.pics {
+    width: 50%;
+    border-radius: 5%;
+}
 
 .founders {
     width: 77%;
     display: block;
-    margin: 0 auto;
-    padding: 0px;
+    margin-top: 20px;
+    padding-top: 20px;
     border-radius: 5%;
 }
 
 
-.main {
-    margin: 0 auto;
-    width: 100%;
-    height: 250px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: whitesmoke;
-    font-family: 'Noto Serif TC', serif;
-}
 
 .footer {
     width: 100%;
