@@ -34,8 +34,14 @@ body {
     text-align: center;
     list-style-type: none;
 }
+
+.list-item-inverse{
+    color: black;
+    transition: 1s ease-in-out;
+}
+
  .list-item a {
-     color: white;
+     color: gray;
      padding: 3px;
      font-size: 20px;
      text-decoration: none;
@@ -48,6 +54,7 @@ body {
     border: 10px;
     padding: 10px;
     border-radius: 50%;
+    
 }
  .right-list {
     width: 23%;

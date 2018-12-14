@@ -10,6 +10,16 @@ body {
     position: fixed;
     background-color: black;
 }
+.nav-color{
+    background-color: black;
+    transition: 1s ease-in-out;
+}
+
+.nav-inverse{
+    background-color: transparent;
+    transition: 1s ease-in-out;
+}
+
  .left-list {
     width: 23%;
     float: left;
@@ -26,7 +36,7 @@ body {
     list-style-type: none;
 }
  .list-item a {
-     color: white;
+     color: gray;
      padding: 3px;
      font-size: 20px;
      text-decoration: none;
